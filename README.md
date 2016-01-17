@@ -8,5 +8,4 @@ Stylesheet: <link rel="stylesheet/less" type="text/css" href="path/hakuGallery.c
 Gallery Plugin: <script src="path/hakuGallery.js"></script>
 3. Add this part to your script to run the plguin.
 $('.hGallery').hakuGallery();
-4. And to make your images into a gallery give the image the class "hGallery" like this:
-			'<img class="hGallery" src="img/1.jpg">'
+4. And to make your images into a gallery give the image the class "hGallery".
