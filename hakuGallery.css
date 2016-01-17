@@ -1,0 +1,80 @@
+#haku-gallery {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+#hg-overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom:0;
+	background-color:#000;
+	opacity:0.95;
+}
+
+#hg-selected-img {
+	position: absolute;
+}
+
+#hg-selected-img > img {
+	border: 5px solid #fff;
+	width: auto;
+	height: auto;
+}
+
+#hg-preview-img {
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	overflow: hidden;
+}
+
+#hg-preview-img:before {
+	content: '';
+	float:left;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#hg-preview-img > img {
+	vertical-align: middle;
+	margin: 10px 0;
+	width:110px;
+	height:auto;
+	cursor: pointer;
+}
+
+#hg-preview-img > img:hover {
+	-webkit-transform: scale(1.2);
+	transform:scale(1.2);
+}
+
+#hg-preview-img > .navUp {
+	position: fixed;
+	color: #fff;
+	opacity:1;
+	cursor: pointer;
+	top: 0;
+	width:65px;
+	height:65px;
+	-ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#hg-preview-img > .navDown {
+	position: fixed;
+	color: #fff;
+	opacity:1;
+	cursor: pointer;
+	top:98%;
+	width: 65px;
+	height: 65px;
+	-ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
