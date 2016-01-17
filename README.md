@@ -4,9 +4,9 @@ hakugallery
 <h2>Install Instructions</h2>
 1. Get the files from Github.
 2. Include the necessary files.
-Stylesheet: <code><link rel="stylesheet/less" type="text/css" href="path/hakuGallery.css"></code>
+Stylesheet: <link rel="stylesheet/less" type="text/css" href="path/hakuGallery.css">
 Gallery Plugin: <script src="path/hakuGallery.js"></script>
 3. Add this part to your script to run the plguin.
 $('.hGallery').hakuGallery();
 4. And to make your images into a gallery give the image the class "hGallery" like this:
-			<img class="hGallery" src="img/1.jpg">
+			'<img class="hGallery" src="img/1.jpg">'
