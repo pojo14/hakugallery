@@ -19,6 +19,7 @@
 
 #hg-selected-img {
 	position: absolute;
+	transform: translateY(-50%);
 }
 
 #hg-selected-img > img {
@@ -29,7 +30,7 @@
 
 #hg-preview-img {
 	position: absolute;
-	width: 110px;
+	width: 10%;
 	height: 100%;
 	overflow: hidden;
 }
@@ -44,7 +45,7 @@
 #hg-preview-img > img {
 	vertical-align: middle;
 	margin: 10px 0;
-	width:110px;
+	width:100%;
 	height:auto;
 	cursor: pointer;
 }
@@ -59,9 +60,9 @@
 	color: #fff;
 	opacity:1;
 	cursor: pointer;
-	top: 0;
-	width:65px;
-	height:65px;
+	top: 4%;
+	width:7%;
+	height:5%;
 	-ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -71,9 +72,9 @@
 	color: #fff;
 	opacity:1;
 	cursor: pointer;
-	top:98%;
-	width: 65px;
-	height: 65px;
+	top: 98%;
+	width: 7%;
+	height: 5%;
 	-ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
