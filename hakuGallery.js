@@ -63,14 +63,15 @@
             $('<img>')
             .attr('src', $(img).attr('src'))
             .css({
-              'max-height': $(window).height() * 0.75, 
-              'max-width': $(window).width() * 0.9
+              'max-height': $(window).height() * 0.95, 
+              'max-width': $(window).width() * 0.8,
             })
             .load(function() {
             $('#hg-selected-img')
             .css({
-				'top': $(window).height() * 0.06,
-				'left': $(window).width() * 0.18,
+				'top': $(window).height() * 0.01,
+				'left': $(window).width() * 0.15,
+				'top': $(window).height() * 0.5
             })
                 .fadeIn();
             })
